@@ -1,0 +1,94 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  background-image: url('../mushroom-cloud-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.title {
+  width: 20%;
+  text-align: center;
+  text-shadow: 2px 2px #333;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.title h1, h4 {
+  margin: 0;
+}
+
+.title h4 {
+  padding-top: 10px;
+  letter-spacing: 2px;
+  line-height: 1.3em;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.idiocy {
+  font-family: fantasy;
+  font-size: 1.6em;
+}
+
+.create-area {
+  background-color: #ddd;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 40%;
+  position: absolute;
+  top: 150px;
+  padding: 30px 50px;
+  left: 50%;
+  color: #333;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.by {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.message {
+  font-size: 1.6em;
+}
+
+.selected {
+  border-bottom: 1px solid #fff;
+}
